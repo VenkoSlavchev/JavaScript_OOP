@@ -1,0 +1,82 @@
+div, input{
+    border : 1px solid black;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+#wrapper{
+    min-height : 400px;
+    max-width: 500px;
+    padding: 1% 0.6%;
+}
+h1{
+    text-align: center;
+}
+#sectionHeading{
+    text-align: left;
+    margin-top: 0;
+}
+input{
+    padding-left: inherit;
+    margin-right: 1%;
+    height: 20px;
+
+}
+#newSection{
+    margin-top: 10px;
+}
+h3{
+    text-align: right;
+    margin: 0;
+    margin-right: 1%;
+    padding-right: 1%;
+
+}
+#sectionsList{
+    padding: 1%;
+    border : 1px solid black;
+    box-sizing: border-box;
+    list-style-type: none;
+
+
+}
+#itemText {
+    margin-left: 57.3%;
+
+}
+#itemBox, #sectionWrapper{
+    padding-top: 0;
+    margin-bottom: 3%;
+}
+#checkBox  {
+display: block;
+
+
+}
+#itemInList{
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    overflow: auto;
+    margin-left: 1%;
+
+}
+#itemsList{
+    padding: 1%;
+    box-sizing : inherit;
+}
+#itemTextBox{
+    width: 92%;
+    text-align: left;
+    padding: 1%;
+    margin-left: 1%;
+    position: static;
+    text-wrap: normal;
+    text-overflow: ellipsis;
+    border-bottom : 1px solid black;
+    box-sizing: border-box;
+}
+.toDoSections {
+    margin-bottom: 3%;
+}
+
+
